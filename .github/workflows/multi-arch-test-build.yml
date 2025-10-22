@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         arch:
-          - ramips
+          - ramips-mt7621
     steps:
       - name: Checkout
         uses: actions/checkout@v4
